@@ -19,7 +19,7 @@ if hasattr(ARGS, 'help'):
 
 if ARGS.addURL:
     with open("URL_AddLinks.txt", 'r') as URL:
-        with open("Name_DeleteLinks.txt", 'r') as NAME:
+        with open("Name_AddLinks.txt", 'r') as NAME:
             URL_FILE = URL.readlines()
             NAME_FILE = NAME.readlines()
             
